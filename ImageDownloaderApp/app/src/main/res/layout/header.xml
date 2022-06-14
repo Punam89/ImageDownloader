@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="#0465B1"
+    android:gravity="bottom"
+   >
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_person"
+        android:backgroundTint="@color/white"
+        android:id="@+id/imageview1"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Punam Gaikwad"
+        android:layout_below="@+id/imageview1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gaikwadpunam@gmail.com"
+        android:layout_below="@+id/textview1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        />
+
+    </RelativeLayout>
+

@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">ImageDownloaderApp</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="nav1"><b>Downloads</b></string>
+    <string name="nav2"><b>Category</b></string>
+    <string name="nav3"><b>Share</b></string>
+    <string name="nav4"><b>Rate Us</b></string>
+    <string name="nav5"><b>Setting</b></string>
+    <string name="nav6"><b>Help</b></string>
+    <string name="nav7"><b>Search History</b></string>
+    <string name="nav8"><b>Feedback</b></string>
+    <string name="text1"><b>Share</b></string>
+    <string name="text2"><b>Like</b></string>
+    <string name="text3"><b>Download</b></string>
+    <string name="text4"><b>Save</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

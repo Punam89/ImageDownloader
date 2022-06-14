@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/download"
+            android:icon="@drawable/ic_download"
+            android:title="@string/nav1" />
+
+        <item
+            android:id="@+id/category"
+            android:icon="@drawable/ic_category"
+            android:title="@string/nav2" />
+
+        <item
+            android:title="@string/nav7"
+            android:id="@+id/history"
+            android:icon="@drawable/ic_history"
+            />
+
+        <item
+            android:title="@string/nav4"
+            android:id="@+id/rating"
+            android:icon="@drawable/ic_star" />
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/nav3"/>
+
+
+        </menu>
+    </item>
+
+    <item android:title="Help">
+        <menu >
+
+            <item
+                android:title="@string/nav5"
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_settings"
+                />
+
+            <item
+                android:title="@string/nav6"
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help"
+                />
+
+            <item
+                android:title="@string/nav8"
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_feedback"
+                />
+
+        </menu>
+
+    </item>
+
+</menu>
